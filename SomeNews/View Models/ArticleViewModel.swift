@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Parent ViewModel: Whole Screen/ List of articles
 struct ArticleListViewModel {
     let articles: [Article]
 }
@@ -26,6 +27,7 @@ extension ArticleListViewModel {
     }
 }
 
+//Base ViewModel : Single Article
 struct ArticleViewModel {
     private let article: Article
 }
